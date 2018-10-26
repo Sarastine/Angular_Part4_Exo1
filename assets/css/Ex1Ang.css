@@ -1,0 +1,33 @@
+body {
+	background-color: #333;
+	color: #080;
+}
+h1, h2 {
+	text-align: center;
+}
+.button {
+	min-width: 50px;
+	min-height: 50px;
+	background-color: #444;
+	color: #0B0;
+	border: 2px solid #080;
+	border-radius: 50px;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.button:hover {
+	background-color: #080;
+	color: #444;
+}
+#buttonRight {
+	margin-right: auto;
+}
+#buttonLeft {
+	margin-left: auto;
+	margin-right: 10px;
+}
+p {
+	text-align: center;
+	font-size: 5em;
+}

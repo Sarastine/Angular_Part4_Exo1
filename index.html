@@ -1,0 +1,24 @@
+<!--Faire une page HTML contenant un bouton + , un bouton - et un paragraphe. Au clic sur le bouton + incrémenter le chiffre présent dans le paragraphe de 1. Au clic sur le bouton - décrémenter le chiffre de 1.-->
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/Ex1Ang.css">
+		<title>Angular - Partie 4 - Exercice 1</title>
+		<script type="text/javascript" src="assets/js/angular.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid" ng-app>
+			<h1>AngularJs</h1>
+			<h2>Partie 4 - Exercice 1</h2>
+			<div>
+				<div class="row">
+					<button type="button" id="buttonLeft" class="button" ng-init="number = 0" ng-click="number = number + 1">+</button><!--Merci David-->
+					<button type="button" id="buttonRight" class="button" ng-init="number = 0" ng-click="number = number - 1">-</button>
+				</div>
+				<p>{{number}}</p>
+			</div>
+		</div>
+	</body>
+</html>
